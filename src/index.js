@@ -1,1 +1,3 @@
-alert("Test test test");
+import { renderHomepage } from "./homepage.js";
+
+renderHomepage();
