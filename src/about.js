@@ -1,10 +1,7 @@
-import cafeImg from './images/cafe.jpg';
+import "./style.css";
 
 export function renderAbout() {
     const content = document.querySelector('#content');
-    const image = document.createElement('img');
-    image.src = cafeImg;
-
     const title = document.createElement('h1');
     title.textContent = 'About Us';
 
