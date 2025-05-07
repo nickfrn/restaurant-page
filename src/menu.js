@@ -1,3 +1,5 @@
+import "./style.css";
+
 export function renderMenu() {
     const content = document.querySelector('#content');
     const test = document.createElement('h1');
